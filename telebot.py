@@ -15,7 +15,7 @@ import gettext
 # Import Config
 from config import (apikey, grant, owner, botcall, prozesse, dmrid, mmdvmlogs, sensors, gwlogs, mmprefix, logfile, userfile, \
 		    mmdvmaufruf, dmrgwaufruf, ysfgw, ircdbbgw, dmrgwaktiv, ysfgwaktiv, ircdbbgwaktiv, gpioports, gpioactive, \
-		    svxactive, language, bmapi, bmapiactive)
+		    svxactive, language, bmapi, bmapiactive, aprxlog, aprxbin, aprxaktiv)
 
 trans = gettext.translation("telebot", "locale", [language])
 trans.install()

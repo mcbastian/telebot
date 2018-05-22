@@ -22,7 +22,7 @@ owner = []
 botcall = ""
 
 # Liste of processes
-prozesse=["MMDVMHost","DMRGateway","YSFGateway","ircddbgatewayd"]
+prozesse=["MMDVMHost","DMRGateway","YSFGateway","ircddbgatewayd","aprx"]
 
 # ID des Repeaters
 dmrid = ""
@@ -34,7 +34,12 @@ mmprefix = "MMDVM"
 # folder wich contains the dmr-gw logfiles
 gwlogs = "/var/log/mmdvm"
 gwprefix = "DMRGateway"
+mmdvmaktiv=1
 
+# path to the current aprx-rf.log
+aprxlog = "/var/log/aprx/aprx-rf.log"
+aprxbin = "/usr/sbin/aprx"
+aprxaktiv = 1
 # how to start mmdvm
 mmdvmaufruf = "/usr/bin/screen -d -m -S MMDVM /home/pi/MMDVMHost/MMDVMHost /home/pi/MMDVMHost/MMDVM-DB0SBN.ini"
 # how to start dmrgw should it be active?
